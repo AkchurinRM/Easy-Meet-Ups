@@ -1,0 +1,178 @@
+body {
+    background-color: #BBDEFB;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;}
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    background-color: #3F51B5;
+    height: 60px;
+    color: white;
+}
+
+.main-field {
+    /*background-color: aqua; */
+    min-height: calc(100vh - 60px);
+    overflow: hidden;
+}
+
+.event-name-wrapper {
+
+}
+
+.page {
+    max-height: 100vh;
+}
+
+#openModaleCreateButton {
+    margin: 20px;
+}
+
+.object-select {
+    margin: 5px;
+    color: #303F9F;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    border-radius: 16px;
+    width: 100px;
+    height: 30px;
+    background: #E8EAF6;
+}
+
+.create-btn {
+    background-color: #303F9F;
+    font-weight: bold;
+    color: white;
+    width: 200px;
+    height: 70px;
+    margin: 0 10px;
+    vertical-align: middle;
+    border: none;
+    border-radius: 15px;
+}
+
+.add-btn {
+    background-color: #C5CAE9;
+    color: #303F9F;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.stats-wrapper {
+
+}
+
+.toolbar {
+    background-color: lightgray;
+    height: calc(100vh - 60px);
+}
+
+.object-list {
+    /*height: 350px;*/
+    padding: 20px;
+}
+
+.object-list__box {
+    background-color: white;
+    height: 80%;
+    /*overflow-x: hidden;*/
+    /*overflow-y: auto;*/
+}
+
+.guests-list__box {
+    overflow: scroll;
+    background-color: white;
+    height: 250px;
+}
+
+.trash-bin {
+    margin: 20px;
+    width: 35px;
+    height: 35px;
+}
+
+.table-rectangle {
+    background-color: #3F51B5;
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+
+    /*position: absolute;*/
+}
+
+.seat-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #7986CB;
+    text-align: center;
+    color: white;
+}
+
+.seat-circle-taken {
+    border-radius: 25px;
+    background-color: #b71c1c;
+}
+
+.seat-circle-target {
+
+    border-radius: 25px;
+    border-color: #3F51B5;
+    border-width: 2px;
+}
+
+.object {
+    position: absolute;
+    top: 120px;
+    left: 120px;
+}
+
+#draggable {font-size: x-large; border: thin solid black;
+    width: 5em; text-align: center; padding:10px}
+
+
+/*-----------MAIN PAGE--------------*/
+
+.follow-row {
+    margin-top: 10%;
+    height: 100px;
+}
+
+.create-row {
+}
+
+.main-button {
+    background-color: #3F51B5;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    margin: 15px;
+}
+
+.follow-input {
+    height: 50px;
+    margin: 15px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.disclaimer {
+    color: #303F9F;
+}
+
