@@ -1,5 +1,7 @@
-package org.example;
+package org.example.controllers;
 
+import org.example.Server;
+import org.example.objects.Room;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;

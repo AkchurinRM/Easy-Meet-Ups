@@ -1,4 +1,4 @@
-package org.example;
+package org.example.objects;
 
 public class Chest {
     private int chestId;

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.objects;
 
 public class Coordinates {
     private double top;

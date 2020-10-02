@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.objects.*;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -10,7 +11,7 @@ import java.util.List;
 public class Server {
     public static DataBase db = new DataBase();
     //Method to test correct json format
-    public static int TestDB(){
+    /*public static int TestDB(){
         Room room = new Room();
         room.setRoomId(100_001);
         room.setRoomName("Test Room");
@@ -64,10 +65,10 @@ public class Server {
         room.setTables(tables);
 
         return db.createEmptyRoomID(room);
-    }
+    }*/
 
     public static void main(String[] args){
-        System.out.println(TestDB());
+        //System.out.println(TestDB());
         SpringApplication.run(Server.class);
     }
 }

@@ -1,4 +1,6 @@
-package org.example;
+package org.example.objects;
+
+import org.example.objects.Coordinates;
 
 public class Table {
     private Coordinates coordinates;

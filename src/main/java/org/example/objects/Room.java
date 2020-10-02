@@ -1,4 +1,8 @@
-package org.example;
+package org.example.objects;
+
+import org.example.objects.Chest;
+import org.example.objects.Table;
+import org.example.objects.User;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,5 +1,8 @@
 package org.example;
 
+import org.example.objects.Room;
+import org.example.objects.User;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
