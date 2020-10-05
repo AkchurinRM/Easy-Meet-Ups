@@ -47,8 +47,10 @@ $(document).ready(function () {
                         localStorage.setItem('roomState', res);
                         const roomId = res.roomId
                         localStorage.setItem('roomId', roomId);
-                        // alert(localStorage.getItem('roomState'))
-                        document.location.href = "/room.html";
+                        // alert(localStorage.getItem('roomId'))
+                        if (localStorage.getItem('roomId') !== 'undefined') {
+                            document.location.href = "/room.html";
+                        } else alert("Такой комнаты не существует")
                     }
                 })
                 .catch(error => console.log('error', error));
